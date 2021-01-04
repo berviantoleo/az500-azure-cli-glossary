@@ -12,6 +12,9 @@ module.exports = {
         ]
       },
       {
+        text: 'Azure Network', link: '/network/'
+      },
+      {
         text: 'Security', ariaLabel: 'Security', items: [
           { text: 'Azure Policy', link: '/policy/'},
           { text: 'Azure RBAC', link: '/azurerbac/'},
