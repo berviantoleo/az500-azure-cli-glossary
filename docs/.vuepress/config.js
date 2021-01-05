@@ -14,11 +14,11 @@ module.exports = {
       {
         text: 'Azure Network', link: '/network/'
       },
-      { text: 'VM', link: '/vm/'}
+      { text: 'VM', link: '/vm/' },
       {
         text: 'Security', ariaLabel: 'Security', items: [
-          { text: 'Azure Policy', link: '/policy/'},
-          { text: 'Azure RBAC', link: '/azurerbac/'},
+          { text: 'Azure Policy', link: '/policy/' },
+          { text: 'Azure RBAC', link: '/azurerbac/' },
           { text: 'Key Vault', link: '/keyvault/' }
         ]
       },
