@@ -140,6 +140,17 @@ az network application-gateway rule create \
     --rule-type Basic
 ```
 
+## Network Watcher
+
+### Enable Network Watcher for your region
+
+```bash
+az network watcher configure \
+--locations westus \
+--enabled true \
+--resource-group $RG
+```
+
 ## VM Relate
 
 ### Get Public IP Address from VM

@@ -21,9 +21,13 @@ Please follow this [link](/common/)
 
 Please follow this [link](/resourcegroup/)
 
-### Azure Network
+## Azure Network
 
 Please follow this [link](/network/)
+
+## VM
+
+Please follow this [link](/vm/)
 
 ## Security
 
