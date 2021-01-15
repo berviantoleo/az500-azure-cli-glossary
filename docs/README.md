@@ -13,6 +13,10 @@ Preparation for AZ-500, collection of usefull command to have more knowledge and
 
 ## Common
 
+### Azure AD
+
+Please follow this [link](/azuread/)
+
 ### Common Command
 
 Please follow this [link](/common/)
@@ -38,8 +42,6 @@ Please follow this [link](/policy/)
 ### Azure RBAC
 
 Please follow this [link](/azurerbac/)
-
-### Azure Role
 
 ### Key Vault
 

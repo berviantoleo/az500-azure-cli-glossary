@@ -7,6 +7,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       {
         text: 'Common', ariaLabel: 'Common', items: [
+          { text: 'Azure AD', link: '/azuread/' },
           { text: 'Common Command', link: '/common/' },
           { text: 'Resource Group', link: '/resourcegroup/' },
         ]
