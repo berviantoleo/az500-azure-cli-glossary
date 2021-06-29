@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Azure AD | Azure CLI Glossary</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Preparation for AZ-500, collection of usefull command to have more knowledge and pass your certification!">
+    
+    <link rel="preload" href="/az500-azure-cli-glossary/assets/css/0.styles.25644fd3.css" as="style"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/app.bd3e1ae8.js" as="script"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/2.399ef136.js" as="script"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/8.1a83db92.js" as="script"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/5.3b337730.js" as="script"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/4.18b7f171.js" as="script"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/10.a7a22b24.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/11.9338f3fc.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/12.eb906a1c.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/13.5cd639f5.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/14.59f79983.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/15.85935cc7.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/16.4624f97e.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/3.d3fc86e9.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/6.eafd2c6f.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/7.faac88e5.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/9.6ab4f404.js">
+    <link rel="stylesheet" href="/az500-azure-cli-glossary/assets/css/0.styles.25644fd3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/az500-azure-cli-glossary/" class="home-link router-link-active"><!----> <span class="site-name">Azure CLI Glossary</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/az500-azure-cli-glossary/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Common" class="dropdown-title"><span class="title">Common</span> <span class="arrow down"></span></button> <button type="button" aria-label="Common" class="mobile-dropdown-title"><span class="title">Common</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azuread/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Azure AD
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/common/" class="nav-link">
+  Common Command
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/resourcegroup/" class="nav-link">
+  Resource Group
+</a></li></ul></div></div><div class="nav-item"><a href="/az500-azure-cli-glossary/network/" class="nav-link">
+  Azure Network
+</a></div><div class="nav-item"><a href="/az500-azure-cli-glossary/vm/" class="nav-link">
+  VM
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Security" class="dropdown-title"><span class="title">Security</span> <span class="arrow down"></span></button> <button type="button" aria-label="Security" class="mobile-dropdown-title"><span class="title">Security</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/policy/" class="nav-link">
+  Azure Policy
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azurerbac/" class="nav-link">
+  Azure RBAC
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/keyvault/" class="nav-link">
+  Key Vault
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/berviantoleo/az500-azure-cli-glossary" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/az500-azure-cli-glossary/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Common" class="dropdown-title"><span class="title">Common</span> <span class="arrow down"></span></button> <button type="button" aria-label="Common" class="mobile-dropdown-title"><span class="title">Common</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azuread/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Azure AD
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/common/" class="nav-link">
+  Common Command
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/resourcegroup/" class="nav-link">
+  Resource Group
+</a></li></ul></div></div><div class="nav-item"><a href="/az500-azure-cli-glossary/network/" class="nav-link">
+  Azure Network
+</a></div><div class="nav-item"><a href="/az500-azure-cli-glossary/vm/" class="nav-link">
+  VM
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Security" class="dropdown-title"><span class="title">Security</span> <span class="arrow down"></span></button> <button type="button" aria-label="Security" class="mobile-dropdown-title"><span class="title">Security</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/policy/" class="nav-link">
+  Azure Policy
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azurerbac/" class="nav-link">
+  Azure RBAC
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/keyvault/" class="nav-link">
+  Key Vault
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/berviantoleo/az500-azure-cli-glossary" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Azure AD</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/az500-azure-cli-glossary/azuread/#users" class="sidebar-link">Users</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/az500-azure-cli-glossary/azuread/#create-user" class="sidebar-link">Create User</a></li></ul></li><li><a href="/az500-azure-cli-glossary/azuread/#groups" class="sidebar-link">Groups</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/az500-azure-cli-glossary/azuread/#create-group" class="sidebar-link">Create Group</a></li><li class="sidebar-sub-header"><a href="/az500-azure-cli-glossary/azuread/#add-user-as-member-at-a-group" class="sidebar-link">Add User as Member at a Group</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="azure-ad"><a href="#azure-ad" class="header-anchor">#</a> Azure AD</h1> <h2 id="users"><a href="#users" class="header-anchor">#</a> Users</h2> <h3 id="create-user"><a href="#create-user" class="header-anchor">#</a> Create User</h3> <div class="theme-code-group" data-v-32c2d7ed><div class="theme-code-group__nav" data-v-32c2d7ed><ul class="theme-code-group__ul" data-v-32c2d7ed></ul></div> <div class="theme-code-block" data-v-6d04095e><div class="language-bash extra-class" data-v-6d04095e><pre class="language-bash" data-v-6d04095e><code data-v-6d04095e><span class="token comment" data-v-6d04095e># Create User</span>
+az ad user create --display-name <span class="token string" data-v-6d04095e>&quot;&lt;name&gt;&quot;</span> --password <span class="token string" data-v-6d04095e>&quot;&lt;password&gt;&quot;</span> --user-principal-name <span class="token operator" data-v-6d04095e>&lt;</span>user principalname<span class="token operator" data-v-6d04095e>&gt;</span>
+<span class="token comment" data-v-6d04095e># Verify</span>
+az ad user list --output table
+</code></pre></div></div> <div class="theme-code-block" data-v-6d04095e><div class="language-powershell extra-class" data-v-6d04095e><pre class="language-powershell" data-v-6d04095e><code data-v-6d04095e><span class="token comment" data-v-6d04095e># Create Password Object</span>
+<span class="token variable" data-v-6d04095e>$passwordProfile</span> = <span class="token function" data-v-6d04095e>New-Object</span> <span class="token operator" data-v-6d04095e>-</span>TypeName Microsoft<span class="token punctuation" data-v-6d04095e>.</span>Open<span class="token punctuation" data-v-6d04095e>.</span>AzureAD<span class="token punctuation" data-v-6d04095e>.</span>Model<span class="token punctuation" data-v-6d04095e>.</span>PasswordProfile
+<span class="token comment" data-v-6d04095e># Fill the password</span>
+<span class="token variable" data-v-6d04095e>$passwordProfile</span><span class="token punctuation" data-v-6d04095e>.</span>Password = <span class="token string" data-v-6d04095e>'&lt;password&gt;'</span>
+<span class="token comment" data-v-6d04095e># Make sure always connect to Azure AD</span>
+<span class="token function" data-v-6d04095e>Connect-AzureAD</span>
+<span class="token comment" data-v-6d04095e># (Optional) Getting domain</span>
+<span class="token variable" data-v-6d04095e>$domainName</span> = <span class="token punctuation" data-v-6d04095e>(</span><span class="token punctuation" data-v-6d04095e>(</span><span class="token function" data-v-6d04095e>Get-AzureAdTenantDetail</span><span class="token punctuation" data-v-6d04095e>)</span><span class="token punctuation" data-v-6d04095e>.</span>VerifiedDomains<span class="token punctuation" data-v-6d04095e>)</span><span class="token punctuation" data-v-6d04095e>[</span>0<span class="token punctuation" data-v-6d04095e>]</span><span class="token punctuation" data-v-6d04095e>.</span>Name
+<span class="token comment" data-v-6d04095e># Create Account/User</span>
+<span class="token function" data-v-6d04095e>New-AzureADUser</span> <span class="token operator" data-v-6d04095e>-</span>DisplayName <span class="token string" data-v-6d04095e>'&lt;name&gt;'</span> <span class="token operator" data-v-6d04095e>-</span>PasswordProfile <span class="token variable" data-v-6d04095e>$passwordProfile</span> <span class="token operator" data-v-6d04095e>-</span>UserPrincipalName <span class="token string" data-v-6d04095e>&quot;&lt;username&gt;@<span class="token variable" data-v-6d04095e>$domainName</span>&quot;</span> <span class="token operator" data-v-6d04095e>-</span>AccountEnabled <span class="token boolean" data-v-6d04095e>$true</span> <span class="token operator" data-v-6d04095e>-</span>MailNickName <span class="token string" data-v-6d04095e>'&lt;mail nickname&gt;'</span>
+<span class="token comment" data-v-6d04095e># Verify</span>
+<span class="token function" data-v-6d04095e>Get-AzureADUser</span>
+</code></pre></div></div> <pre class="pre-blank" data-v-32c2d7ed>// Make sure to add code blocks to your code group</pre></div> <h2 id="groups"><a href="#groups" class="header-anchor">#</a> Groups</h2> <h3 id="create-group"><a href="#create-group" class="header-anchor">#</a> Create Group</h3> <div class="theme-code-group" data-v-32c2d7ed><div class="theme-code-group__nav" data-v-32c2d7ed><ul class="theme-code-group__ul" data-v-32c2d7ed></ul></div> <div class="theme-code-block" data-v-6d04095e><div class="language-bash extra-class" data-v-6d04095e><pre class="language-bash" data-v-6d04095e><code data-v-6d04095e><span class="token comment" data-v-6d04095e># Create group</span>
+az ad group create --display-name <span class="token string" data-v-6d04095e>&quot;&lt;group name&gt;&quot;</span> --mail-nickname <span class="token string" data-v-6d04095e>&quot;&lt;mail nickname&gt;&quot;</span>
+<span class="token comment" data-v-6d04095e># Verify</span>
+az ad group list -o table
+</code></pre></div></div> <div class="theme-code-block" data-v-6d04095e><div class="language-powershell extra-class" data-v-6d04095e><pre class="language-powershell" data-v-6d04095e><code data-v-6d04095e><span class="token comment" data-v-6d04095e># Create Group</span>
+<span class="token function" data-v-6d04095e>New-AzureADGroup</span> <span class="token operator" data-v-6d04095e>-</span>DisplayName <span class="token string" data-v-6d04095e>'&lt;group name&gt;'</span> <span class="token operator" data-v-6d04095e>-</span>MailEnabled <span class="token boolean" data-v-6d04095e>$false</span> <span class="token operator" data-v-6d04095e>-</span>SecurityEnabled <span class="token boolean" data-v-6d04095e>$true</span> <span class="token operator" data-v-6d04095e>-</span>MailNickName &lt;mail nickname&gt;
+<span class="token comment" data-v-6d04095e># Verify</span>
+<span class="token function" data-v-6d04095e>Get-AzureADGroup</span>
+</code></pre></div></div> <pre class="pre-blank" data-v-32c2d7ed>// Make sure to add code blocks to your code group</pre></div> <h3 id="add-user-as-member-at-a-group"><a href="#add-user-as-member-at-a-group" class="header-anchor">#</a> Add User as Member at a Group</h3> <div class="theme-code-group" data-v-32c2d7ed><div class="theme-code-group__nav" data-v-32c2d7ed><ul class="theme-code-group__ul" data-v-32c2d7ed></ul></div> <div class="theme-code-block" data-v-6d04095e><div class="language-bash extra-class" data-v-6d04095e><pre class="language-bash" data-v-6d04095e><code data-v-6d04095e><span class="token comment" data-v-6d04095e># Add member to group</span>
+az ad group member <span class="token function" data-v-6d04095e>add</span> --group <span class="token string" data-v-6d04095e>&quot;&lt;group name&gt;&quot;</span> --member-id <span class="token operator" data-v-6d04095e>&lt;</span>member id<span class="token operator" data-v-6d04095e>&gt;</span>
+<span class="token comment" data-v-6d04095e># Verify</span>
+az ad group member list --group <span class="token string" data-v-6d04095e>&quot;&lt;group name&gt;&quot;</span>
+</code></pre></div></div> <div class="theme-code-block" data-v-6d04095e><div class="language-powershell extra-class" data-v-6d04095e><pre class="language-powershell" data-v-6d04095e><code data-v-6d04095e><span class="token comment" data-v-6d04095e># Get the user</span>
+<span class="token variable" data-v-6d04095e>$user</span> = <span class="token function" data-v-6d04095e>Get-AzureADUser</span> <span class="token operator" data-v-6d04095e>-</span><span class="token keyword" data-v-6d04095e>Filter</span> <span class="token string" data-v-6d04095e>&quot;MailNickName eq '&lt;mail nickname&gt;'&quot;</span>
+<span class="token comment" data-v-6d04095e># Add Member</span>
+<span class="token function" data-v-6d04095e>Add-AzADGroupMember</span> <span class="token operator" data-v-6d04095e>-</span>MemberUserPrincipalName <span class="token variable" data-v-6d04095e>$user</span><span class="token punctuation" data-v-6d04095e>.</span>userPrincipalName <span class="token operator" data-v-6d04095e>-</span>TargetGroupDisplayName <span class="token string" data-v-6d04095e>&quot;&lt;group display name&gt;&quot;</span>
+<span class="token comment" data-v-6d04095e># Verify the Member</span>
+<span class="token function" data-v-6d04095e>Get-AzADGroupMember</span> <span class="token operator" data-v-6d04095e>-</span>GroupDisplayName <span class="token string" data-v-6d04095e>&quot;&lt;group display name&gt;&quot;</span>
+</code></pre></div></div> <pre class="pre-blank" data-v-32c2d7ed>// Make sure to add code blocks to your code group</pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">6/29/2021, 12:02:20 AM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/az500-azure-cli-glossary/assets/js/app.bd3e1ae8.js" defer></script><script src="/az500-azure-cli-glossary/assets/js/2.399ef136.js" defer></script><script src="/az500-azure-cli-glossary/assets/js/8.1a83db92.js" defer></script><script src="/az500-azure-cli-glossary/assets/js/5.3b337730.js" defer></script><script src="/az500-azure-cli-glossary/assets/js/4.18b7f171.js" defer></script>
+  </body>
+</html>

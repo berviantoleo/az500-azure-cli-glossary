@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Azure Policy | Azure CLI Glossary</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Preparation for AZ-500, collection of usefull command to have more knowledge and pass your certification!">
+    
+    <link rel="preload" href="/az500-azure-cli-glossary/assets/css/0.styles.25644fd3.css" as="style"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/app.bd3e1ae8.js" as="script"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/2.399ef136.js" as="script"><link rel="preload" href="/az500-azure-cli-glossary/assets/js/13.5cd639f5.js" as="script"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/10.a7a22b24.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/11.9338f3fc.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/12.eb906a1c.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/14.59f79983.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/15.85935cc7.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/16.4624f97e.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/3.d3fc86e9.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/4.18b7f171.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/5.3b337730.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/6.eafd2c6f.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/7.faac88e5.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/8.1a83db92.js"><link rel="prefetch" href="/az500-azure-cli-glossary/assets/js/9.6ab4f404.js">
+    <link rel="stylesheet" href="/az500-azure-cli-glossary/assets/css/0.styles.25644fd3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/az500-azure-cli-glossary/" class="home-link router-link-active"><!----> <span class="site-name">Azure CLI Glossary</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/az500-azure-cli-glossary/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Common" class="dropdown-title"><span class="title">Common</span> <span class="arrow down"></span></button> <button type="button" aria-label="Common" class="mobile-dropdown-title"><span class="title">Common</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azuread/" class="nav-link">
+  Azure AD
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/common/" class="nav-link">
+  Common Command
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/resourcegroup/" class="nav-link">
+  Resource Group
+</a></li></ul></div></div><div class="nav-item"><a href="/az500-azure-cli-glossary/network/" class="nav-link">
+  Azure Network
+</a></div><div class="nav-item"><a href="/az500-azure-cli-glossary/vm/" class="nav-link">
+  VM
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Security" class="dropdown-title"><span class="title">Security</span> <span class="arrow down"></span></button> <button type="button" aria-label="Security" class="mobile-dropdown-title"><span class="title">Security</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/policy/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Azure Policy
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azurerbac/" class="nav-link">
+  Azure RBAC
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/keyvault/" class="nav-link">
+  Key Vault
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/berviantoleo/az500-azure-cli-glossary" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/az500-azure-cli-glossary/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Common" class="dropdown-title"><span class="title">Common</span> <span class="arrow down"></span></button> <button type="button" aria-label="Common" class="mobile-dropdown-title"><span class="title">Common</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azuread/" class="nav-link">
+  Azure AD
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/common/" class="nav-link">
+  Common Command
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/resourcegroup/" class="nav-link">
+  Resource Group
+</a></li></ul></div></div><div class="nav-item"><a href="/az500-azure-cli-glossary/network/" class="nav-link">
+  Azure Network
+</a></div><div class="nav-item"><a href="/az500-azure-cli-glossary/vm/" class="nav-link">
+  VM
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Security" class="dropdown-title"><span class="title">Security</span> <span class="arrow down"></span></button> <button type="button" aria-label="Security" class="mobile-dropdown-title"><span class="title">Security</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/policy/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Azure Policy
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/azurerbac/" class="nav-link">
+  Azure RBAC
+</a></li><li class="dropdown-item"><!----> <a href="/az500-azure-cli-glossary/keyvault/" class="nav-link">
+  Key Vault
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/berviantoleo/az500-azure-cli-glossary" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Azure Policy</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/az500-azure-cli-glossary/policy/#apply-an-azure-policy" class="sidebar-link">Apply an Azure policy</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/az500-azure-cli-glossary/policy/#identify-non-compliant-resources" class="sidebar-link">Identify non-compliant resources</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/az500-azure-cli-glossary/policy/#remove-policy-assignment" class="sidebar-link">Remove policy assignment</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="azure-policy"><a href="#azure-policy" class="header-anchor">#</a> Azure Policy</h1> <h2 id="apply-an-azure-policy"><a href="#apply-an-azure-policy" class="header-anchor">#</a> Apply an Azure policy</h2> <div class="language-powershell extra-class"><pre class="language-powershell"><code><span class="token comment"># Register the resource provider if it's not already registered</span>
+<span class="token function">Register-AzResourceProvider</span> <span class="token operator">-</span>ProviderNamespace <span class="token string">'Microsoft.PolicyInsights'</span>
+</code></pre></div><div class="language-powershell extra-class"><pre class="language-powershell"><code><span class="token comment"># Get a reference to the resource group that will be the scope of the assignment</span>
+<span class="token variable">$rg</span> = <span class="token function">Get-AzResourceGroup</span> <span class="token operator">-</span>Name <span class="token string">'&lt;resourceGroupName&gt;'</span>
+
+<span class="token comment"># Get a reference to the built-in policy definition that will be assigned</span>
+<span class="token variable">$definition</span> = <span class="token function">Get-AzPolicyDefinition</span> <span class="token punctuation">|</span> <span class="token function">Where-Object</span> <span class="token punctuation">{</span> <span class="token variable">$_</span><span class="token punctuation">.</span>Properties<span class="token punctuation">.</span>DisplayName <span class="token operator">-eq</span> <span class="token string">'Audit VMs that do not use managed disks'</span> <span class="token punctuation">}</span>
+
+<span class="token comment"># Create the policy assignment with the built-in definition against your resource group</span>
+<span class="token function">New-AzPolicyAssignment</span> <span class="token operator">-</span>Name <span class="token string">'audit-vm-manageddisks'</span> <span class="token operator">-</span>DisplayName <span class="token string">'Audit VMs without managed disks Assignment'</span> <span class="token operator">-</span>Scope <span class="token variable">$rg</span><span class="token punctuation">.</span>ResourceId <span class="token operator">-</span>PolicyDefinition <span class="token variable">$definition</span>
+</code></pre></div><h2 id="identify-non-compliant-resources"><a href="#identify-non-compliant-resources" class="header-anchor">#</a> Identify non-compliant resources</h2> <div class="language-powershell extra-class"><pre class="language-powershell"><code><span class="token function">Get-AzPolicyState</span> <span class="token operator">-</span>ResourceGroupName <span class="token variable">$rg</span><span class="token punctuation">.</span>ResourceGroupName <span class="token operator">-</span>PolicyAssignmentName <span class="token string">'audit-vm-manageddisks'</span> <span class="token operator">-</span><span class="token keyword">Filter</span> <span class="token string">'IsCompliant eq false'</span>
+</code></pre></div><h2 id="remove-policy-assignment"><a href="#remove-policy-assignment" class="header-anchor">#</a> Remove policy assignment</h2> <div class="language-powershell extra-class"><pre class="language-powershell"><code><span class="token function">Remove-AzPolicyAssignment</span> <span class="token operator">-</span>Name <span class="token string">'audit-vm-manageddisks'</span> <span class="token operator">-</span>Scope <span class="token string">'/subscriptions/&lt;subscriptionID&gt;/resourceGroups/&lt;resourceGroupName&gt;'</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">6/29/2021, 12:02:20 AM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/az500-azure-cli-glossary/assets/js/app.bd3e1ae8.js" defer></script><script src="/az500-azure-cli-glossary/assets/js/2.399ef136.js" defer></script><script src="/az500-azure-cli-glossary/assets/js/13.5cd639f5.js" defer></script>
+  </body>
+</html>
